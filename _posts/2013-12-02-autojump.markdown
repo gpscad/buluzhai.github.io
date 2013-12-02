@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "autojump 算法"
+date:   2013-12-02 23:00:56
+categories: jekyll update
+---
+<a href="https://github.com/joelthelion/autojump" target='_blank'>autojump</a>是一个很好用的工具，使得在命令行下来回切换目录不再痛苦。
+
+键入autojump -s 可以看到访问过的目录的权重。
+<pre class="font:consolas lang:sh decode:true " >kennedyliu-nb:myrkt buluzhai$ autojump -s
+30.0: /Users/buluzhai/dev/mynode
+34.6: /Users/buluzhai/dev/btcchina
+34.6: /Users/buluzhai/dev/myrkt
+67.1: /Users/buluzhai/dev
+________________________________________
+
+166: total key weight
+4: stored directories
+db file: /Users/buluzhai/.local/share/autojump/autojump.txt</pre> 
+
+看了下autojump的<a href="https://github.com/joelthelion/autojump/blob/master/bin/autojump" target='_blank'>源码</a>，算法很简单，每进一次目录，如果该目录之前没访问过，就把该目录的权重weight初始化为一个增长值(默认为10)，如果访问过了，就把该目录的权重值weight更新为\(\sqrt{weight^2+10^2}\)，权重越大的目录会被优先选出来。
+ 
+<pre class="lang:python decode:true " >def add(self, path, increment=10):
+        """
+        Increase weight of existing paths or initialize new ones to 10.
+        """
+        if path == self.config['home']:
+            return
+
+        path = path.rstrip(os.sep)
+
+        if self.data[path]:
+            self.data[path] = math.sqrt((self.data[path]**2) + (increment**2))
+        else:
+            self.data[path] = increment
+
+        self.save()</pre> 
+
+
+
+
+目录的权重会随着使用以10%的速率衰减，这一点可以保证你最近常使用的目录排到前面，之前你访问很多的目录，如果很久没访问了，也会被排到后面去，排到最后10%的目录会被清除掉。
+ 
+<pre class="lang:python decode:true " > def maintenance(self):
+        """
+        Decay weights by 10%, periodically remove bottom 10% entries.
+        """
+        try:
+            items = self.data.iteritems()
+        except AttributeError:
+            items = self.data.items()
+
+        for path, _ in items:
+            self.data[path] *= 0.9
+
+        if len(self.data) &gt; self.config['max_paths']:
+            remove_cnt = int(0.1 * len(self.data))
+            for path in sorted(self.data, key=self.data.get)[:remove_cnt]:
+                del self.data[path]
+
+            self.save()
+</pre> 
