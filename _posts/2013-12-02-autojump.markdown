@@ -24,7 +24,7 @@ db file: /Users/buluzhai/.local/share/autojump/autojump.txt
 
 看了下autojump的<a href="https://github.com/joelthelion/autojump/blob/master/bin/autojump" target='_blank'>源码</a>，算法很简单，每进一次目录，如果该目录之前没访问过，就把该目录的权重weight初始化为一个增长值(默认为10)，如果访问过了，就把该目录的权重值weight更新为\(\sqrt{weight^2+10^2}\)，权重越大的目录会被优先选出来。
  
-```
+```python
 def add(self, path, increment=10):
         """
         Increase weight of existing paths or initialize new ones to 10.
@@ -47,7 +47,7 @@ def add(self, path, increment=10):
 
 目录的权重会随着使用以10%的速率衰减，这一点可以保证你最近常使用的目录排到前面，之前你访问很多的目录，如果很久没访问了，也会被排到后面去，排到最后10%的目录会被清除掉。
  
-```
+```python
 def maintenance(self):
         """
         Decay weights by 10%, periodically remove bottom 10% entries.
