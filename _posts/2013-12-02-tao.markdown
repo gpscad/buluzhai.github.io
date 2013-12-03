@@ -2,7 +2,7 @@
 layout: post
 title:  "朝闻道"
 date:   2013-12-02 23:00:56
-categories: jekyll update
+categories: 读书 
 ---
 读刘慈欣的短篇科幻小说《朝闻道》，读到结尾，欣然一笑。
 这几年看书不少，多有涉猎，但泛览无归，若非要总结一下，则只有一“疑”字。

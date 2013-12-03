@@ -2,7 +2,7 @@
 layout: post
 title:  "autojump 算法"
 date:   2013-12-02 23:00:56
-categories: jekyll update
+categories: coding
 ---
 <a href="https://github.com/joelthelion/autojump" target='_blank'>autojump</a>是一个很好用的工具，使得在命令行下来回切换目录不再痛苦。
 
