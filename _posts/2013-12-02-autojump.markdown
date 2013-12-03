@@ -66,5 +66,4 @@ def maintenance(self):
                 del self.data[path]
 
             self.save()
-</pre> 
 ```
