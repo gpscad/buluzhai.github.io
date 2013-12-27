@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "惠勒的四个没有"
+date:   2013-12-27 13:00:56
+categories: 读书 
+---
+
+读惠勒的《宇宙逍遥》，惠勒晚年的哲学思考可谓深邃。
+惠勒列出了一个3，4，5的清单，里面有三个问题、四个没有和五个线索。
+
+三个问题是：
+
+ * 存在何如？（How comes existence？）
+ * 量子何如？（How come the quantum？）
+ * 诸多观察者-参与者如何汇出“一个世界”？
+
+ 四个“没有”：
+ 
+ * 没有乌龟塔 （No tower of turtles）
+ * 没有规律 （No laws）
+ * 没有连续体 （No continuum）
+ * 没有空间，没有时间 （No space,no time）
