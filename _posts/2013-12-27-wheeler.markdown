@@ -26,11 +26,12 @@ categories: 读书
  * 没有空间，没有时间 （No space,no time）
 
  五条线索：
- The boundary of a boundary  is zero。
- No question？No answer。
- The super-Copernican principle。
- Consciousness。
- More is different。
+ 
+ * The boundary of a boundary  is zero。
+ * No question？No answer。
+ * The super-Copernican principle。
+ * Consciousness。
+ * More is different。
  
 惠勒经常举的对话中，比喻常有洞察，比如这样一个对话：
 宇宙说，我是一个巨大的机器，我为你的存在提供时间和空间，在我成为存在之前，没有之前，在我终止存在之后，没有之后，你不过是位于一个渺小星系中的一个渺小的物质斑点而已。
