@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  读《彻底的经验主义》
-date:   2013-09-16 23:00:56
+date:   2014-01-05 23:00:56
 categories: 读书 
 ---
 
