@@ -5,7 +5,7 @@ date:   2014-02-27 23:00:56
 categories: 每日一篇千字文 
 ---
 
-昨晚看了电影[《她》](movie.douban.com/subject/6722879/)，是我爱看的故事。
+昨晚看了电影[《她》](http://movie.douban.com/subject/6722879/)，是我爱看的故事。
 
 我也曾设想过这样一个故事。
 
