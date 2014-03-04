@@ -16,4 +16,5 @@ categories: 每日一篇千字文
 收集的电子书多了之后，就需要较强的搜索功能了，但百度云这方面做得较弱，只能搜文件名，而不能搜索文件内容，也缺乏较好的图书管理工具。
 
 在百度云中找到的敦煌写经图片，大英博物馆藏，为《中论》的一页。
-![](http://ww2.sinaimg.cn/large/6208e01fgw1ee43xagm12j20p018lwrl.jpg)
+
+![](http://ww4.sinaimg.cn/bmiddle/6208e01fgw1ee3xk4a876j20p018lwrl.jpg)
