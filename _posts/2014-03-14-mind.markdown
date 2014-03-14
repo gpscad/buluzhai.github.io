@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  意识随想
-date:   2014-03-12 23:00:56
+date:   2014-03-14 23:00:56
 categories: 每日一篇千字文 
 ---
 
@@ -13,4 +13,4 @@ categories: 每日一篇千字文
 
 意识智能为何物，哲学家争了几千年也无结果。后来莱布尼茨说，我们来算算吧。再后来图灵横空出世，别吵了，只要你能通过图灵测试。Talk is cheap. Show me the code。
 
-![](http://ww4.sinaimg.cn/large/6208e01fgw1eefp632d8wj20nz0k3tc6.jpg)
+![](http://ww4.sinaimg.cn/bmiddle/6208e01fgw1eefp632d8wj20nz0k3tc6.jpg)
