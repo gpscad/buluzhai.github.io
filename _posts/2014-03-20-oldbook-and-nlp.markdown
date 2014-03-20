@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  《古书疑义举例》和NLP
-date:   2014-03-18 23:00:56
+date:   2014-03-20 23:00:56
 categories: 每日一篇千字文 
 ---
 
