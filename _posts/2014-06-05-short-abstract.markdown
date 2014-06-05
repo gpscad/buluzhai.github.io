@@ -16,7 +16,7 @@ Can Fame Be Measured Quantitatively?（名气可以定量的测量吗）
 摘要只有一个词：
 >yes。
 
-做法就是用搜索引擎，名气的衡量单位是“莱温斯基(LW)”(作者写这篇文章的时候莱温斯基太有名了)。
+做法就是用搜索引擎，名气的衡量单位是“莱温斯基(LW)”(1LW等于搜索引擎索引莱温斯基的条数，作者写这篇文章的时候莱温斯基太有名了)。
 
 How Should Fame Be Measured Quantitatively?(应该怎样定量的测量名气)
 摘要：
