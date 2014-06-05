@@ -1,3 +1,10 @@
+---
+layout: post
+title:  Lamport的论文摘要
+date:   2014-06-05 23:00:56
+categories: 每日一篇千字文 
+---
+
 去年的图灵奖获得者Leslie Lamport的论文《Paxos Made Simple》的Abstract只有一句：The Paxos algorithm, when presented in plain English, is very simple
 
 Lamport还有一篇论文《[Measuring Celebrity](http://research.microsoft.com/en-us/um/people/lamport/pubs/celebrity.pdf)》，Abstract也很短，是“Celebrity is not fame, but it too can be measured”。
